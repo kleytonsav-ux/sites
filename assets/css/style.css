@@ -1,0 +1,64 @@
+body{
+font-family: 'Inter', sans-serif;
+background:#F4F6F8;
+}
+
+.header{
+background:#0F2A44;
+padding:20px;
+color:white;
+}
+
+.logo{
+font-family:'Playfair Display';
+color:#C9A45C;
+}
+
+.hero{
+background:#0F2A44;
+color:white;
+padding:140px 0;
+text-align:center;
+}
+
+.btn-main{
+background:#C9A45C;
+color:white;
+padding:15px 30px;
+border-radius:6px;
+text-decoration:none;
+}
+
+.benefits{
+padding:80px 0;
+}
+
+.services{
+background:white;
+padding:80px 0;
+}
+
+.service-card{
+padding:30px;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.service-card:hover{
+transform:translateY(-10px);
+}
+
+.cta{
+background:#0F2A44;
+color:white;
+text-align:center;
+padding:80px 0;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
