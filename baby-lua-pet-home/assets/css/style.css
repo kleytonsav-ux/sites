@@ -1,0 +1,161 @@
+
+body{
+font-family:'Inter',sans-serif;
+background:#f6f9fc;
+margin:0;
+}
+
+.header{
+background:white;
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+box-shadow:0 2px 20px rgba(0,0,0,0.05);
+}
+
+.header-inner{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px;
+}
+
+.logo{
+font-family:'Poppins';
+font-weight:700;
+font-size:20px;
+}
+
+nav a{
+margin:0 10px;
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+.btn-whatsapp{
+background:#25D366;
+color:white;
+padding:8px 16px;
+border-radius:20px;
+}
+
+.hero{
+height:90vh;
+background:linear-gradient(120deg,#2C7BE5,#2ECC71);
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+position:relative;
+padding-top:80px;
+}
+
+.hero h1{
+font-size:48px;
+font-family:'Poppins';
+font-weight:700;
+}
+
+.hero-sub{
+font-size:20px;
+margin-top:10px;
+}
+
+.cta-main{
+background:#FFC107;
+color:#000;
+padding:16px 34px;
+border-radius:40px;
+font-weight:600;
+display:inline-block;
+margin-top:25px;
+text-decoration:none;
+}
+
+.stats{
+padding:80px 0;
+background:white;
+}
+
+.stat h2{
+font-size:40px;
+font-weight:700;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:40px;
+font-family:'Poppins';
+font-weight:700;
+}
+
+.servicos{
+padding:80px 0;
+}
+
+.service-card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+
+.service-card:hover{
+transform:translateY(-8px);
+}
+
+.sobre{
+padding:80px 0;
+background:#f8f9fa;
+text-align:center;
+}
+
+.avaliacoes{
+padding:80px 0;
+}
+
+.review{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.cta-section{
+background:#2C7BE5;
+color:white;
+text-align:center;
+padding:70px 20px;
+}
+
+.cta-section a{
+background:#FFC107;
+padding:15px 30px;
+border-radius:30px;
+color:#000;
+font-weight:600;
+text-decoration:none;
+}
+
+.contato{
+padding:80px 0;
+text-align:center;
+}
+
+iframe{
+width:100%;
+height:300px;
+border:0;
+margin-top:20px;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
